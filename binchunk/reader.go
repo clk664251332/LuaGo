@@ -1,7 +1,9 @@
 package binchunk
 
-import "encoding/binary"
-import "math"
+import (
+	"encoding/binary"
+	"math"
+)
 
 type reader struct {
 	data []byte
